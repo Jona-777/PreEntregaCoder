@@ -44,31 +44,33 @@
                     </nav>
             </div>
         </div>
-    </header>   
-    <main id="main-con" class="container p-3 mb-3">
-        <h1 class="animate__animated animate__fadeInLeft">Contacto</h1>
-        <div class="d-flex justify-content-center align-items-center" style="min-height: 80vh;" >
-            <div class="w-100" style="max-width: 400px;">
-                <form action="enviar.php" method="post" enctype="text/plain">
-                    <div class="mb-3">
-                        <label for="Nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" required placeholder="Ingresa tu nombre">
-                    </div>
-                    <div class="mb-3">
-                        <label for="Email" class="form-label" >Email</label>
-                        <input type="email" class="form-control" name="Email" id="Email" required placeholder="tuemail@gmail.com">
-                    </div>
-                    <div class="mb-3">
-                    <label for="Mensaje" class="form-label" >Mensaje</label>
-                    <textarea class="form-control" name="Mensaje" id="Mensaje" row="5" placeholder="Escribe tu mensaje!"></textarea>
-                    </div>
-                    <div class="text-center">
-                        <input class="btn btn-outline-dark" type="submit" value="Enviar">
-                    </div>
-                </form>
+    </header>
+    <div class="contain-contactos"> 
+        <main id="main-con" class="container p-3 mb-3">
+            <h1 class="animate__animated animate__fadeInLeft h1-con">¡Contáctanos ahora para más informacion!</h1>
+            <div class="d-flex justify-content-center align-items-center" style="min-height: 80vh;" >
+                <div class="w-100" style="max-width: 400px;">
+                    <form action="enviar.php" method="post" enctype="text/plain">
+                        <div class="mb-3">
+                            <label for="Nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" required placeholder="Ingresa tu nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Email" class="form-label" >Email</label>
+                            <input type="email" class="form-control" name="Email" id="Email" required placeholder="tuemail@gmail.com">
+                        </div>
+                        <div class="mb-3">
+                        <label for="Mensaje" class="form-label" >Mensaje</label>
+                        <textarea class="form-control" name="Mensaje" id="Mensaje" row="5" placeholder="Escribe tu mensaje!"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <input class="btn btn-outline-dark" type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
-    </main>
+        </main>
+    </div>  
     <footer class="footer">
         <div class="footer-container">
             <div class="frase-footer">
